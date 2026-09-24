@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="myOS_CSS.css">
+    </head>
+    <body>
+        <div id="div_1">
+            <div id="app">
+                <br>
+                <img src="pro.jpg" height="40px" width="40px" onclick="clickPro()">
+                <img src="set.png" height="40px" width="40px" onclick="Setting()">
+                <br><br>
+                <img id="chr" src="ch.jpg" height="40px" width="40px" onclick="clickChrome()">
+                <img src="linked.png" height="40px" width="40px" onclick="clickLink()">
+                <br><br>
+                <img src="cal.png" height="40px" width="40px" onclick="clickCal()">
+                <br><br>
+                <img src="note.jpg" height="40px" width="40px" onclick="clickNote()">
+                <br><br>
+                <img src="time.jpg" height="40px" width="40px" onclick="DateTime()">
+                
+            </div>
+            <div id="start">
+                <div id="start_1">
+                    <input type="text" placeholder="Search apps......" id="search"><br><br>
+                    <img src="pro.jpg" height="40px" width="40px" onclick="clickPro()">
+                    <span>Your Profile</span><hr>
+                    <img src="set.png" height="40px" width="40px" onclick="Setting()">
+                    <span>Settings</span><hr>
+                    <img id="chr" src="ch.jpg" height="40px" width="40px" onclick="clickChrome()">
+                    <span>Chrome</span><hr>
+                    <img src="linked.png" height="40px" width="40px" onclick="clickLink()">
+                    <span>Linkedin</span><hr>
+                    <br><br>
+                    
+                </div>
+                <div id="start_2">
+                    <br><br><br><br>
+                    <img src="cal.png" height="40px" width="40px" onclick="clickCal()">
+                    <span>Calculator</span><hr>
+                    <img src="note.jpg" height="40px" width="40px" onclick="clickNote()">
+                    <span>Yor Notes</span><hr>
+                    <img src="time.jpg" height="40px" width="40px" onclick="DateTime()">
+                    <span>Date and Time</span><hr>
+                    <img id="pow" src="powe.png" width="30px" onclick="clickPower()">
+                </div>
+            </div>
+            <div id="calc">
+                <form>
+                    <h1>Calculator</h1>
+                    <input type="text" id="display">
+                    <br>
+                    <div id="butt_div">
+                        <button id="cal_b" type="button" onclick="clearDisplay()" id="clear">Ce</button>
+                        <button id="cal_b" type="button" onclick="insert('+')">+</button>
+                        <button id="cal_b" type="button" onclick="insert('-')">-</button>
+                        <button id="cal_b" type="button" onclick="insert('*')">*</button>
+                        <br>
+                        <button id="cal_b" type="button" onclick="insert('9')">9</button>
+                        <button id="cal_b" type="button" onclick="insert('8')">8</button>
+                        <button id="cal_b" type="button" onclick="insert('7')">7</button>
+                        <button id="cal_b" type="button" onclick="insert('/')">/</button>
+                        <br>
+                        <button id="cal_b" type="button" onclick="insert('6')">6</button>
+                        <button id="cal_b" type="button" onclick="insert('5')">5</button>
+                        <button id="cal_b" type="button" onclick="insert('4')">4</button>
+                        <button id="cal_b" type="button" onclick="calculate()">=</button>
+                        <br>
+                        <button id="cal_b" type="button" onclick="insert('3')">3</button>
+                        <button id="cal_b" type="button" onclick="insert('2')">2</button>
+                        <button id="cal_b" type="button" onclick="insert('1')">1</button>
+                        <button id="cal_b" type="button" onclick="insert('0')">0</button>
+                        <br>
+                        <button id="cal_b" type="button" onclick="insert('.')">.</button>
+                    </div>
+                </form>
+            </div>
+            <div id="note">
+                <h2>Add your notes </h2>
+                <input type="text" id="noteName">
+                <label>Enter title of note</label><br><br>
+                <textarea cols="50" rows="10"></textarea><br>
+                <br>
+                <button type="button" onclick="saveNote()">Save</button>
+            </div>
+            <div id="clockTime">
+                <h3>Date and Time</h3>
+                <span>Date: </span>
+                <span id="date"></span><br><br>
+                <span>Time: </span>
+                <span id="time"></span>
+            </div>
+            <div id="profile">
+                <img src="pro.jpg" height="40px" width="40px" id="image">
+                <p>Name: Gurpreet Kaushal</p>
+                <p>Email ID: gurpreetkaushal41@gmail.com</p>
+                <p>Phone Number: XXXXX XX721</p>
+            </div>
+            <div id="set">
+                <p>Settings</p>
+                <span>Light mode/ Dark mode : </span>
+                <button type="button" id="togg" onclick="toggle()">Light Mode</button><br><br>
+                <span>Change Wallpaper: </span>
+                <button type="button" id="wall" onclick="clickWall()">New Wallpaper</button>
+            </div>
+        </div>
+        <div id="div_2">
+            <div id="div_2_1">
+                <img id="sign" src="sign.jpg" height="40px" width="40px" onclick="clickStart()">
+                <img id="chr" src="ch.jpg" height="40px" width="40px" onclick="clickChrome()">
+                <img src="cal.png" height="40px" width="40px" onclick="clickCal()">
+                <img src="note.jpg" height="40px" width="40px" onclick="clickNote()">
+                
+            </div>
+            <div id="noCont" onclick="main()">
+            </div>
+            <div>
+                    <img src="batt.jpg" height="55px" width="100%">
+            </div>
+            <div>
+                <div id="clock" onclick="DateTime()" >
+                    <div id="time2"></div>
+                    <div id="date2"></div>
+                </div>
+            </div>
+        </div>
+        <script src="myOS_JS.js"></script>
+    </body>
+</html>

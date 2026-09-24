@@ -1,0 +1,156 @@
+#div_1{
+    background-image: url('wall.jpg');
+    background-size: cover;
+    height: 92%;
+    width:100%;
+}
+#div_2{
+    background-color: rgb(52, 51, 51);
+    height:8%;
+    display: flex;
+    justify-content: space-between;
+}
+#div_2_1{
+   text-align: left;
+}
+#sign{
+    border-radius: 50%;
+    margin-top: 8px;
+
+}
+#pow{
+    position: absolute;
+    bottom:2%;
+    left:50%;
+}
+#search{
+    align-items: center;
+}
+#start{
+    background-color: rgb(35, 35, 35);
+    position: absolute;
+    height: 60%;
+    width:50%;
+    bottom:12%;
+    left:20%;
+    border-radius: 4%;
+    display:none;
+    padding:20px;
+    color:white;
+    font-size:20px;
+}
+#start_1{
+    width:45%;
+}
+#start_2{
+    width:45%;
+    margin-left:7%;
+}
+#chr{
+    border-radius: 50%;
+}
+#calc{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    border-radius:10px;
+    margin-top:0px;
+    width:40%;
+    position:absolute;
+    left:20%;
+    display:none;
+    }
+h1{
+    text-align: center;
+    color:white;
+}
+#display{
+    width:50%;
+    height:50px;
+    margin-bottom:10px;
+    margin-top: 1%;
+    text-align:right;
+    background-color: rgb(159, 245, 216);
+    font-size: 20px;;
+}
+#clear{
+    background-color: rgb(172, 36, 36);
+}
+#cal_b{
+    width:70px;
+    height:45px;
+    background-color: rgb(42, 42, 42);
+    color:white;
+    border-radius: 10px;
+    margin: 3px;;
+}
+#cal_b:hover{
+    background-color: rgb(64, 64, 64);
+}
+h2{
+    text-align:center;
+}
+#note{
+    width: 40%;
+    height:50%;
+    background-color:white;
+    border:5px double rgb(98, 225, 248);
+    border-radius: 8%;
+    position: absolute;
+    left:20%;
+    top:30%;
+    display:none;
+    padding: 20px;
+}
+#clock{
+    color:white;
+    
+}
+#clockTime{
+    color:white;
+    background-color: rgb(40, 39, 39);
+    font-size: 20px;
+    position: absolute;
+    top:40%;
+    right:40%;
+    height:30%;
+    width:30%;
+    border-radius:10%;
+    padding:2%;
+    display:none;
+}
+#profile{
+    background-color: white;
+    position:absolute;
+    top:50%;
+    right:40%;
+    height:40%;
+    width:50%;
+    text-align: center;
+    border:5px double blue;
+    border-radius: 5%;
+    padding:10px;
+    display:none;
+}
+#set{
+    position: absolute;
+    height:40%;
+    width:30%;
+    top:30%;
+    left:30%;
+    background-color: black;
+    color:white;
+    padding:20px;
+    border-radius: 5%;
+    display:none;
+    border:7px double white;
+}
+#set p{
+    text-align: center;
+    font-size: 30px;
+}
+#noCont{
+    width:50%;
+    height:100%;
+    
+}
